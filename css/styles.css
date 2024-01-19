@@ -1,0 +1,43 @@
+body {
+    padding-top: 56px; /* Adjust the body padding to accommodate the navbar */
+
+
+}
+.nav-link{
+  color: white;
+}
+.title {
+    margin-top: 100px;
+}
+h2{
+text-align: center;
+color: pink;
+}
+#chicken{
+
+text-align: center;
+}
+
+@media (max-width: 767px) {
+    /* Apply styles for mobile view */
+    .navbar-collapse {
+        background-color: #333; /* Set background color for mobile menu */
+    }
+
+    .navbar-toggler {
+        background-color: #333; /* Set background color for mobile menu button */
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff; /* Set color of mobile menu button bars */
+    }
+
+    .navbar-nav {
+        width: 100%; /* Make the dropdown menu take up the entire width */
+    }
+}
+
+#tall-section {
+    height: 1000px; /* Set the height of the tall section */
+    background-color: red; /* Set background color of the tall section */
+}
